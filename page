@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elspeth R. Crawford · AI Assurance</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Elspeth R. Crawford · AI Assurance">
+<meta property="og:description" content="Elspeth R. Crawford: AI assurance and governance specialist, and qualified lawyer.">
+<meta name="description" content="Elspeth R. Crawford: AI assurance and governance specialist, and qualified lawyer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..400&family=Schibsted+Grotesk:wght@400;500;600&display=swap">
+<style>
+/* Layout: a calm personal site. Introduction, experience by area, highlights by role, key figures, approach, background, qualifications, contact and questions. */
+:root {
+  --page: #F6F4EF;
+  --band: #FFFFFF;
+  --card: #FFFFFF;
+  --card-2: #FAF8F4;
+  --line: #E2DED5;
+  --grid: #E9E5DD;
+  --head: #23262B;
+  --body: #4A4F57;
+  --soft: #62676F;
+  --brand: #1E4A43;
+  --brand-ink: #FFFFFF;
+  --brand-tint: #E3ECE9;
+  --hl-fill: #E5D27A;
+  --hl-soft: #F3EBC4;
+  --hl-text: #4A3F10;
+  --on-hl: #2A2610;
+  --bar: #D9D5CC;
+  --on-bar: #23262B;
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --radius: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #141619; --band: #1A1D20; --card: #1E2125; --card-2: #191C1F; --line: #30343A; --grid: #2B2F34;
+    --head: #ECEAE4; --body: #B6BAC0; --soft: #9EA3AA;
+    --brand: #8CC3B4; --brand-ink: #0F211D; --brand-tint: #1F302C;
+    --hl-fill: #D9C56A; --hl-soft: #3A3420; --hl-text: #F0E3A8; --on-hl: #1C1A0E;
+    --bar: #4A4F56; --on-bar: #ECEAE4;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #141619; --band: #1A1D20; --card: #1E2125; --card-2: #191C1F; --line: #30343A; --grid: #2B2F34;
+  --head: #ECEAE4; --body: #B6BAC0; --soft: #9EA3AA;
+  --brand: #8CC3B4; --brand-ink: #0F211D; --brand-tint: #1F302C;
+  --hl-fill: #D9C56A; --hl-soft: #3A3420; --hl-text: #F0E3A8; --on-hl: #1C1A0E;
+  --bar: #4A4F56; --on-bar: #ECEAE4;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--page); color: var(--body);
+  font-family: var(--sans); font-size: 17px; line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 30; background: var(--page);
+}
+h1, h2, h3 { margin: 0; color: var(--head); font-family: var(--serif); font-weight: 380; text-wrap: balance; letter-spacing: -.015em; }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+a { color: var(--brand); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; border-radius: 4px; }
+
+.wrap {
+  max-width: 1120px; margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.sec { padding-block: 96px; scroll-margin-top: 72px; }
+.band { background: var(--band); }
+.label { font-size: 13px; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; color: var(--soft); }
+.sec h2 { font-size: clamp(2rem, 4.6vw, 2.9rem); line-height: 1.1; margin-top: 12px; }
+.intro { margin-top: 14px; max-width: 58ch; font-size: 18px; }
+
+/* Signature detail: a hooked arrow before every text link */
+.tlink {
+  display: inline-flex; align-items: baseline; gap: .42em;
+  color: var(--brand); font-weight: 500; text-decoration: none; text-align: left;
+}
+.tlink::before {
+  content: ""; flex: none; width: .78em; height: .78em; align-self: center;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 2.5v6.5h9.5M9.5 6l3 3-3 3' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 2.5v6.5h9.5M9.5 6l3 3-3 3' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+.tlink:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--brand); color: var(--brand-ink);
+  border-radius: 999px; padding: 13px 24px; font-weight: 600; font-size: 16px; line-height: 1.2;
+  transition: opacity .2s;
+}
+.btn-primary:hover { opacity: .9; }
+.badge {
+  display: inline-flex; align-items: center; border-radius: 999px;
+  padding: 4px 12px; background: var(--hl-soft); color: var(--hl-text);
+  font-size: 13.5px; font-weight: 500; line-height: 1.4; white-space: nowrap;
+}
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
+.band .card { background: var(--page); }
+
+/* Announcement and menu */
+.announce { background: var(--head); color: var(--page); font-size: 14px; }
+.announce-in { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px; padding-block: 10px; text-align: center; }
+.announce .tlink { color: var(--page); }
+.nav {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: var(--page); border-bottom: 1px solid var(--line);
+}
+.nav-in { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; min-height: 64px; }
+.nav-links { display: flex; gap: 22px; font-size: 15px; }
+.nav-links a { color: var(--body); text-decoration: none; }
+.nav-links a:hover { color: var(--head); }
+.wordmark { font-family: var(--serif); font-size: 21px; color: var(--head); text-decoration: none; letter-spacing: -.01em; white-space: nowrap; }
+.nav-cta { justify-self: end; }
+#nav-cta { padding: 9px 18px; font-size: 15px; }
+#nav-cta.is-link { background: transparent; color: var(--brand); padding-inline: 0; font-weight: 500; }
+#nav-cta.is-link::before {
+  content: ""; width: .78em; height: .78em; margin-right: .42em; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 2.5v6.5h9.5M9.5 6l3 3-3 3' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 2.5v6.5h9.5M9.5 6l3 3-3 3' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* Hero */
+.hero { padding-block: 104px 80px; scroll-margin-top: 72px; }
+.kicker { font-size: 15px; font-weight: 500; color: var(--soft); }
+.hero h1 { font-size: clamp(2.9rem, 8.4vw, 5.4rem); line-height: 1.02; letter-spacing: -.025em; font-weight: 340; margin-top: 18px; max-width: 13ch; }
+.hero .sub { margin-top: 24px; font-size: clamp(18px, 2.1vw, 20px); max-width: 54ch; color: var(--body); }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px; margin-top: 36px; }
+
+/* Organisation strip */
+.orgs { border-block: 1px solid var(--line); padding-block: 22px 26px; }
+.orgs-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.pause-btn { font-size: 14px; color: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; }
+.pause-btn:hover { color: var(--head); border-color: var(--soft); }
+.strip {
+  overflow: hidden; margin-top: 14px;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.track { display: flex; width: max-content; animation: marquee 48s linear infinite; }
+.strip:hover .track, .strip:focus-within .track, .strip.is-paused .track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.org-row { display: flex; align-items: center; gap: 44px; padding-right: 44px; }
+.org { font-family: var(--serif); font-size: 23px; color: var(--soft); white-space: nowrap; transition: color .2s; }
+.org:hover { color: var(--head); }
+
+/* Four parts */
+.parts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
+.part {
+  display: flex; flex-direction: column; gap: 10px; text-align: left;
+  padding: 22px 22px 20px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  transition: border-color .2s;
+}
+.part:hover { border-color: var(--soft); }
+.part[aria-selected="true"] { border-color: var(--head); box-shadow: inset 0 0 0 1px var(--head); }
+.part-name { font-family: var(--serif); font-size: 23px; line-height: 1.15; color: var(--head); }
+.part-line { font-size: 15.5px; line-height: 1.5; }
+.part-foot { margin-top: auto; padding-top: 6px; display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13.5px; color: var(--soft); }
+.part-on { display: none; align-items: center; gap: 5px; color: var(--head); font-weight: 500; }
+.part[aria-selected="true"] .part-on { display: inline-flex; }
+.part-on svg { width: 14px; height: 14px; }
+.ev-panel { margin-top: 16px; padding: 10px 28px 14px; }
+.ev-count { padding-block: 16px 12px; font-size: 15px; color: var(--soft); }
+.ev-count strong { color: var(--head); font-weight: 600; }
+.ev { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px 12px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 120px; border-radius: 8px; }
+.ev-id { font-size: 13.5px; color: var(--soft); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.ev-text { color: var(--head); font-size: 16.5px; line-height: 1.55; max-width: 70ch; }
+.ev-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-top: 10px; font-size: 14.5px; }
+.ev-from { color: var(--soft); }
+.ev.flash { animation: evflash 2s ease-out; }
+@keyframes evflash { from { background: var(--brand-tint); } to { background: transparent; } }
+
+/* Stories */
+.story-nav { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 40px; border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 26px; overflow-x: auto; min-width: 0; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { flex: none; padding: 10px 0 12px; font-size: 15px; color: var(--soft); border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+.tab:hover { color: var(--head); }
+.tab[aria-selected="true"] { color: var(--head); font-weight: 600; border-bottom-color: var(--head); }
+.arrows { display: flex; gap: 8px; padding-bottom: 10px; flex: none; }
+.arrow { width: 40px; height: 40px; border-radius: 999px; border: 1px solid var(--line); display: grid; place-items: center; color: var(--head); }
+.arrow:hover { border-color: var(--soft); }
+.arrow svg { width: 16px; height: 16px; }
+.story { margin-top: 24px; padding: 32px; }
+.story-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 40px; }
+.story-left { background: var(--card-2); border-radius: 12px; padding: 24px; min-width: 0; }
+.band .story-left { background: var(--band); }
+.chart-title { font-weight: 600; color: var(--head); font-size: 16px; }
+.chart-note { font-size: 14px; color: var(--soft); margin-top: 2px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.chart { display: block; width: 100%; height: auto; margin-top: 22px; overflow: visible; }
+.chart text { font-family: var(--sans); }
+.c-grid { stroke: var(--grid); stroke-width: 1; }
+.c-axis { fill: var(--soft); font-size: 11px; }
+.c-lab { fill: var(--head); font-size: 13px; }
+.c-lab.is-ours { font-weight: 600; }
+.c-bar { fill: var(--bar); }
+.c-bar-ours { fill: var(--hl-fill); }
+.c-val { fill: var(--head); font-size: 12.5px; font-weight: 600; }
+.c-val.in-ours { fill: var(--on-hl); }
+.c-val.in { fill: var(--on-bar); }
+.story-right { min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.story-tag { font-size: 13.5px; color: var(--soft); font-weight: 500; }
+.story-h { font-size: clamp(1.6rem, 3vw, 2.1rem); line-height: 1.15; }
+.story-right p:not(.story-tag) { max-width: 60ch; }
+.story-right .tlink { margin-top: 4px; }
+.fine {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 28px;
+  margin: 28px 0 0; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13.5px; line-height: 1.5;
+}
+.fine div { min-width: 0; }
+.fine dt { color: var(--head); font-weight: 600; }
+.fine dd { margin: 2px 0 0; color: var(--soft); }
+
+/* Numbers */
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 44px; }
+.stat { padding: 28px 26px 24px; display: flex; flex-direction: column; gap: 10px; }
+.stat-num { font-family: var(--serif); font-weight: 340; font-size: clamp(3.2rem, 6vw, 4.2rem); line-height: 1; color: var(--head); letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.stat-what { color: var(--head); font-size: 17px; line-height: 1.45; }
+.stat-src { margin-top: 10px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.5; color: var(--soft); display: grid; gap: 4px; }
+.stat-src b { color: var(--head); font-weight: 600; }
+.stat .tlink { margin-top: auto; padding-top: 10px; font-size: 15px; }
+
+/* How I work */
+.how { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 40px; margin-top: 44px; align-items: start; }
+.how-diagram { padding: 30px 28px 24px; --node: 96px; }
+.st-track { position: relative; }
+.track-line { position: absolute; top: 19px; left: calc(var(--node) / 2); right: calc(var(--node) / 2); height: 2px; background: var(--line); }
+.track-fill { display: block; height: 100%; width: calc(var(--p, 0) * 100%); background: var(--brand); transition: width .6s ease; }
+.track-nodes { position: relative; display: flex; justify-content: space-between; }
+.node { width: var(--node); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.node-dot {
+  width: 40px; height: 40px; border-radius: 999px; display: grid; place-items: center;
+  border: 1.5px solid var(--head); background: var(--card); color: var(--head);
+  font-family: var(--serif); font-size: 18px; transition: background .3s, color .3s, border-color .3s;
+}
+.band .node-dot { background: var(--page); }
+.node.is-done .node-dot, .node.is-active .node-dot { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
+.node-name { font-size: 13px; line-height: 1.35; color: var(--soft); }
+.node.is-active .node-name { color: var(--head); font-weight: 600; }
+.how-now { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--line); min-height: 150px; }
+.how-step { font-size: 13.5px; color: var(--soft); }
+.how-title { font-family: var(--serif); font-size: 30px; line-height: 1.15; color: var(--head); margin-top: 4px; }
+.how-ev { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; font-size: 15px; align-items: center; }
+.how-ev span { color: var(--soft); }
+.how-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.ctrl { font-size: 14px; color: var(--head); border: 1px solid var(--line); border-radius: 999px; padding: 6px 16px; }
+.ctrl:hover { border-color: var(--soft); }
+.how-list { display: grid; gap: 4px; }
+.how-item { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 14px; text-align: left; padding: 14px 12px; border-radius: 12px; width: 100%; }
+.how-item:hover { background: var(--card-2); }
+.band .how-item:hover { background: var(--page); }
+.how-num {
+  width: 30px; height: 30px; border-radius: 999px; border: 1.5px solid var(--head); display: grid; place-items: center;
+  font-family: var(--serif); font-size: 15px; color: var(--head);
+}
+.how-item[aria-current="step"] .how-num { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
+.how-h { display: block; color: var(--head); font-size: 17px; font-weight: 500; }
+.how-item[aria-current="step"] .how-h { font-weight: 600; }
+.how-p { display: block; font-size: 15.5px; line-height: 1.55; margin-top: 4px; }
+
+/* Note */
+.note { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 64px; align-items: center; }
+.portrait {
+  aspect-ratio: 4 / 5; max-width: 100%; border-radius: 20px; background: var(--card); border: 1px solid var(--line);
+  display: flex; flex-direction: column; justify-content: space-between; padding: 24px;
+}
+.portrait-mono { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: clamp(5rem, 13vw, 9rem); line-height: 1; color: var(--head); letter-spacing: -.04em; margin-top: auto; }
+.portrait-cap { font-size: 13.5px; color: var(--soft); margin-top: 18px; }
+.note-text p:not(.label) { font-size: 18.5px; line-height: 1.7; margin-top: 18px; max-width: 58ch; color: var(--body); }
+.note-text h2 { margin-top: 12px; }
+.sig { font-family: var(--serif); font-style: italic; font-size: 24px !important; color: var(--head) !important; margin-top: 26px !important; }
+
+/* Record */
+.quickline { margin-top: 18px; font-size: 15px; color: var(--soft); }
+.promise { font-family: var(--serif); font-size: clamp(1.4rem, 2.6vw, 1.8rem); line-height: 1.3; color: var(--head); max-width: 34ch; margin-top: 26px; text-wrap: balance; }
+.creds { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 40px; }
+.cred { padding: 22px; display: flex; flex-direction: column; gap: 8px; }
+.cred svg { width: 26px; height: 26px; color: var(--brand); }
+.cred h3 { font-family: var(--sans); font-size: 16.5px; font-weight: 600; letter-spacing: 0; margin-top: 6px; }
+.cred-where { font-size: 14px; color: var(--soft); line-height: 1.45; }
+.cred p:last-child { font-size: 15px; line-height: 1.5; }
+.sub-h { font-family: var(--serif); font-size: 26px; margin-top: 64px; }
+.career { margin-top: 18px; border-bottom: 1px solid var(--line); }
+.career li { display: grid; grid-template-columns: 170px minmax(0, 1.2fr) minmax(0, 1fr) 150px; gap: 6px 24px; padding-block: 16px; border-top: 1px solid var(--line); align-items: baseline; }
+.c-when { font-size: 14.5px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.c-role { color: var(--head); font-weight: 500; }
+.c-org { font-size: 15.5px; }
+.c-go { font-size: 15px; justify-self: end; }
+.c-now { font-size: 14px; color: var(--soft); justify-self: end; }
+.extras { display: grid; gap: 8px; margin-top: 28px; font-size: 15.5px; max-width: 80ch; }
+.extras b { color: var(--head); font-weight: 600; }
+
+/* Frameworks */
+.frameworks { margin-top: 18px; border-bottom: 1px solid var(--line); }
+.frameworks li { display: grid; grid-template-columns: 190px minmax(0, 1fr) auto; gap: 6px 24px; padding-block: 16px; border-top: 1px solid var(--line); align-items: baseline; }
+.fw-name { color: var(--head); font-weight: 600; }
+.fw-what { font-size: 15.5px; }
+.level { justify-self: end; font-size: 13.5px; color: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; white-space: nowrap; }
+.cred.is-pending svg { color: var(--soft); }
+@media (max-width: 760px) {
+  .frameworks li { grid-template-columns: 1fr; gap: 4px; }
+  .level { justify-self: start; margin-top: 6px; }
+}
+
+/* Call to action */
+.cta-in { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px; }
+.cta-in h2 { font-size: clamp(2.4rem, 6vw, 3.6rem); margin-top: 0; }
+.cta-in .sub { font-size: 18px; max-width: 46ch; }
+.cta-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px 24px; margin-top: 8px; }
+.email { color: var(--head); user-select: all; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+
+/* FAQs */
+.faq-list { margin-top: 36px; border-bottom: 1px solid var(--line); max-width: 860px; }
+.faq-list details { border-top: 1px solid var(--line); }
+.faq-list summary {
+  list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  padding-block: 20px; font-family: var(--serif); font-size: 22px; color: var(--head); line-height: 1.3;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-family: var(--sans); font-size: 22px; font-weight: 300; color: var(--soft); transition: transform .25s; }
+.faq-list details[open] summary::after { transform: rotate(45deg); }
+.faq-list details p { padding-bottom: 22px; max-width: 64ch; }
+
+.foot { border-top: 1px solid var(--line); }
+.foot-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; padding-block: 28px 48px; font-size: 14px; color: var(--soft); }
+
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); z-index: 40;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  max-width: calc(100% - 32px); width: max-content;
+  background: var(--head); color: var(--page); border-radius: 999px; padding: 12px 20px;
+  font-size: 15px; line-height: 1.45; text-align: center;
+}
+.toast .email { color: var(--page); font-weight: 600; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .parts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .creds { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .how { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: 1fr; }
+  .story-grid { grid-template-columns: 1fr; gap: 28px; }
+  .career li { grid-template-columns: 150px minmax(0, 1fr) 130px; }
+  .c-org { grid-column: 2; grid-row: 2; }
+  .c-go, .c-now { grid-column: 3; grid-row: 1; }
+}
+@media (max-width: 760px) {
+  .nav-links { display: none; }
+  .nav-in { grid-template-columns: 1fr auto; }
+  .note { grid-template-columns: 1fr; gap: 32px; }
+  .portrait { aspect-ratio: auto; min-height: 220px; max-width: 360px; }
+  .fine { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sec { padding-block: 64px; }
+  .hero { padding-block: 64px 56px; }
+}
+@media (max-width: 560px) {
+  .wordmark { font-size: 18px; }
+  .parts { grid-template-columns: 1fr; }
+  .creds { grid-template-columns: 1fr; }
+  .ev-panel { padding: 6px 18px 10px; }
+  .ev { grid-template-columns: 1fr; }
+  .story { padding: 20px; }
+  .story-left { padding: 18px; }
+  .fine { grid-template-columns: 1fr; }
+  .how-diagram { padding: 24px 18px 20px; --node: 44px; }
+  .node-name { display: none; }
+  .career li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .c-org, .c-go, .c-now { grid-column: 1; grid-row: auto; justify-self: start; }
+  .c-go { margin-top: 6px; }
+  .org { font-size: 20px; }
+  .faq-list summary { font-size: 19px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .track { animation: none; flex-wrap: wrap; width: auto; }
+  .org-row { flex-wrap: wrap; gap: 10px 32px; padding-inline: 16px; }
+  .org-row[aria-hidden="true"] { display: none; }
+  .strip { -webkit-mask-image: none; mask-image: none; }
+  .pause-btn { display: none; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+<style>
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="announce">
+  <div class="wrap announce-in">
+    <span>Application for the AI Assurance Lead role</span>
+    <a class="tlink" href="#contact">Get in touch</a>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap nav-in">
+    <div class="nav-links">
+      <a href="#parts">Experience</a>
+      <a href="#stories">Highlights</a>
+      <a href="#how">Approach</a>
+      <a href="#note">About</a>
+      <a href="#faq">Questions</a>
+    </div>
+    <a class="wordmark" href="#top">Elspeth R. Crawford</a>
+    <div class="nav-cta">
+      <button class="btn-primary js-copy is-link" id="nav-cta" type="button" data-label="Copy email">Copy email</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <header class="hero" id="top">
+    <div class="wrap">
+      <p class="kicker">AI assurance and governance · Edinburgh and London</p>
+      <h1>Elspeth Crawford</h1>
+      <p class="sub">Elspeth is a qualified lawyer and AI governance specialist who has built AI assurance from scratch. She designed and delivered Codified Legal’s first AI Assurance service, founded an AI governance software start-up in Oslo, and was the first Legal Technologist at Anderson Strathern.</p>
+      <div class="hero-actions">
+        <button class="btn-primary js-copy" id="hero-cta" type="button" data-label="Copy email address">Copy email address</button>
+        <a class="tlink" href="#parts">View experience</a>
+        <a class="tlink" href="https://www.elspethcrawford.com/" target="_blank" rel="noopener">elspethcrawford.com</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="orgs" aria-label="Organisations">
+    <div class="wrap orgs-head">
+      <p class="label">Organisations</p>
+      <button class="pause-btn" id="strip-toggle" type="button" aria-pressed="false">Pause</button>
+    </div>
+    <div class="strip" id="strip">
+      <div class="track" id="org-track"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="parts" aria-labelledby="parts-h">
+    <div class="wrap">
+      <p class="label">Experience</p>
+      <h2 id="parts-h">Experience by area</h2>
+      <p class="intro">Choose an area to see the related experience.</p>
+      <div class="parts" id="parts-tabs" role="tablist" aria-label="Areas of experience"></div>
+      <div class="card ev-panel" id="ev-panel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="sec band" id="stories" aria-labelledby="stories-h">
+    <div class="wrap">
+      <p class="label">Highlights</p>
+      <h2 id="stories-h">Selected work</h2>
+      <p class="intro">Four roles in more detail.</p>
+      <div class="story-nav">
+        <div class="tabs" id="story-tabs" role="tablist" aria-label="Roles"></div>
+        <div class="arrows">
+          <button class="arrow" id="story-prev" type="button" aria-label="Previous role"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button class="arrow" id="story-next" type="button" aria-label="Next role"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+      <article class="card story" id="story-card" role="tabpanel" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <section class="sec" id="numbers" aria-labelledby="numbers-h">
+    <div class="wrap">
+      <p class="label">In numbers</p>
+      <h2 id="numbers-h">Key figures</h2>
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <section class="sec band" id="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <p class="label">Approach</p>
+      <h2 id="how-h">Approach to AI assurance</h2>
+      <p class="intro">The four stages below are drawn from her work so far.</p>
+      <div class="how">
+        <div class="card how-diagram" id="how-diagram" tabindex="0" role="group" aria-label="Step diagram. Use the left and right arrow keys to move between steps.">
+          <div class="st-track">
+            <div class="track-line"><span class="track-fill" id="track-fill"></span></div>
+            <ol class="track-nodes" id="track-nodes"></ol>
+          </div>
+          <div class="how-now" id="how-now" aria-live="polite"></div>
+          <div class="how-controls">
+            <button class="ctrl" id="how-prev" type="button">← Previous</button>
+            <button class="ctrl" id="how-play" type="button" aria-pressed="false">Pause</button>
+            <button class="ctrl" id="how-next" type="button">Next →</button>
+          </div>
+        </div>
+        <ol class="how-list" id="how-list" aria-label="The four steps"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="note" aria-labelledby="note-h">
+    <div class="wrap note">
+      <div class="portrait" aria-hidden="true">
+        <span class="portrait-mono">EC</span>
+        <span class="portrait-cap">Edinburgh / London</span>
+      </div>
+      <div class="note-text">
+        <p class="label">About</p>
+        <h2 id="note-h">Background</h2>
+        <p>Elspeth’s career has been guided above all by her insatiable curiosity. While studying at the University of Oslo, it led her to pore over the European Commission’s proposed AI Act with a fine tooth comb. Since then, her work has centred on the legal and governance issues involved in building and deploying AI models and systems.</p>
+        <p>She is motivated by making AI-enabled services trustworthy by design, so that the people who rely on them can do so with confidence. In an AI Assurance Lead role, she brings a lawyer’s understanding of the rules together with hands-on experience of building and testing AI products.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec band" id="record" aria-labelledby="record-h">
+    <div class="wrap">
+      <p class="label">Qualifications</p>
+      <h2 id="record-h">Qualifications and frameworks</h2>
+      <div class="creds">
+        <div class="card cred">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 12.3l2.8 2.8 5.6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Admitted as a Lawyer</h3>
+          <p class="cred-where">Supreme Court of New South Wales, 2023</p>
+        </div>
+        <div class="card cred">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 12.3l2.8 2.8 5.6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Master of Laws (LLM)</h3>
+          <p class="cred-where">Information and Communication Technology Law, University of Oslo, 2023</p>
+        </div>
+        <div class="card cred">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 12.3l2.8 2.8 5.6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Graduate Diploma of Legal Practice</h3>
+          <p class="cred-where">The College of Law, Australia, 2021</p>
+        </div>
+        <div class="card cred">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 12.3l2.8 2.8 5.6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Juris Doctor</h3>
+          <p class="cred-where">University of Sydney, 2019</p>
+        </div>
+      </div>
+
+      <h3 class="sub-h">Frameworks</h3>
+      <ul class="frameworks">
+        <li><span class="fw-name">EU AI Act</span><span class="fw-what">Researched risk management for high-risk AI; applied in client guidance.</span><span class="level">Applied</span></li>
+        <li><span class="fw-name">GDPR and UK GDPR</span><span class="fw-what">Applied in client guidance.</span><span class="level">Applied</span></li>
+        <li><span class="fw-name">Cybersecurity and copyright law</span><span class="fw-what">Applied in client guidance.</span><span class="level">Applied</span></li>
+        <li><span class="fw-name">ISO/IEC 42001</span><span class="fw-what">AI management systems.</span><span class="level">Familiar</span></li>
+        <li><span class="fw-name">NIST AI RMF</span><span class="fw-what">AI risk management.</span><span class="level">Familiar</span></li>
+        <li><span class="fw-name">ISO/IEC 27001</span><span class="fw-what">Information security management.</span><span class="level">Familiar</span></li>
+      </ul>
+
+      <h3 class="sub-h">Career</h3>
+      <ul class="career" id="career"></ul>
+
+      <div class="extras">
+        <p><b>Speaking:</b> AI Frontiers for Legal Services (2024); AI and the Law, University of Oslo (2024)</p>
+        <p><b>Languages:</b> English (native), Norwegian (B1, working)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="contact" aria-labelledby="contact-h">
+    <div class="wrap cta-in">
+      <p class="label">Contact</p>
+      <h2 id="contact-h">Get in touch</h2>
+      <p class="sub">Elspeth is based in Edinburgh and London. Email is the best way to reach her.</p>
+      <div class="cta-actions">
+        <button class="btn-primary js-copy" id="end-cta" type="button" data-label="Copy email address">Copy email address</button>
+        <a class="email" id="cta-email" href="mailto:elspeth.r.crawford@gmail.com">elspeth.r.crawford@gmail.com</a>
+      </div>
+      <a class="tlink" href="https://www.elspethcrawford.com/" target="_blank" rel="noopener">elspethcrawford.com</a>
+    </div>
+  </section>
+
+  <section class="sec band" id="faq" aria-labelledby="faq-h">
+    <div class="wrap">
+      <p class="label">Questions</p>
+      <h2 id="faq-h">Further detail</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Technical experience</summary>
+          <p>Elspeth designed, built and shipped an AI governance software product with a CTO and engineers. She has tested AI output quality using evaluation frameworks and benchmarking, and worked to reduce hallucinations using retrieval-based AI (RAG) and structured outputs.</p>
+        </details>
+        <details>
+          <summary>Third-party AI</summary>
+          <p>She assesses third-party AI through vendor due diligence, and by testing tools on real work before the business commits.</p>
+        </details>
+        <details>
+          <summary>Location</summary>
+          <p>Edinburgh and London, UK. She has also lived and worked in Sydney and Oslo.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Elspeth R. Crawford · Last updated 4 November 2026</span>
+    <a class="tlink" href="#top">Back to top</a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+(function () {
+  var EMAIL = 'elspeth.r.crawford@gmail.com';
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(id) { return document.getElementById(id); }
+  function go(el, block) { if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: block || 'start' }); }
+  var CHECK = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.4l2.8 2.8 6.2-6.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  // ---------- Content (written once, shared by every layout) ----------
+  var PART_ORDER = ['build', 'tech', 'rules', 'people'];
+  var PARTS = {
+    build: { name: 'AI assurance', line: 'Designing assurance services, toolkits and governance software that can be used again across projects.' },
+    tech: { name: 'Testing AI systems', line: 'Hands-on work with generative and frontier AI models, and structured pilots of third-party AI platforms.' },
+    rules: { name: 'Regulation and standards', line: 'The EU AI Act, GDPR and UK GDPR, cybersecurity and copyright law, and AI standards.' },
+    people: { name: 'People and policy', line: 'AI use policies, AI literacy training, and work with senior stakeholders and clients.' }
+  };
+
+  var ROLES = {
+    codified: { title: 'Legal Consultant (Artificial Intelligence)', short: 'Codified Legal', org: 'Codified Legal, London / remote', dates: 'Sep 2023 – Mar 2024', story: 'codified' },
+    consult: { title: 'AI Governance and Legal Technology Consultant', short: 'Independent practice', org: 'Independent practice, UK', dates: '2026 – present', story: null, current: true },
+    as: { title: 'Legal Technologist', short: 'Anderson Strathern', org: 'Anderson Strathern LLP, Edinburgh', dates: 'May 2026', story: 'as' },
+    infai: { title: 'Founder', short: 'InfAI', org: 'InfAI (AI governance software), Oslo', dates: 'Sep 2024 – Nov 2025', story: 'infai' },
+    oslo: { title: 'Research Assistant', short: 'University of Oslo', org: 'ViROS Project, University of Oslo', dates: 'Oct 2022 – Mar 2023', story: 'oslo' },
+    ddt: { title: 'Tipstaff (Judicial Researcher)', short: 'NSW tribunal', org: 'Dust Diseases Tribunal of NSW, Sydney', dates: 'Dec 2019 – Oct 2020', story: null },
+    edu: { title: 'Education and speaking', short: 'Education and speaking', org: '', dates: '', story: null }
+  };
+  var CAREER = ['consult', 'as', 'infai', 'codified', 'oslo', 'ddt'];
+
+  var EVIDENCE = [
+    { id: 'E01', role: 'codified', parts: ['build', 'rules'], measure: '3 client projects', text: 'Designed and launched the firm’s first AI Assurance service with its directors, and delivered it across 3 client projects.' },
+    { id: 'E02', role: 'codified', parts: ['build'], measure: '3 toolkits', text: 'Built 3 reusable assurance toolkits (frameworks, templates and checklists), so the service was applied consistently across client projects rather than rebuilt each time.' },
+    { id: 'E03', role: 'codified', parts: ['rules', 'people'], measure: '50+ clients', text: 'Turned the EU AI Act, GDPR and UK GDPR, cybersecurity and copyright law into practical guidance used by more than 50 international clients.' },
+    { id: 'E04', role: 'infai', parts: ['tech', 'build'], measure: 'Shipped', text: 'Designed, built and shipped an AI governance software product (MVP) with the CTO and engineers, prototyping quickly, testing rigorously and improving reliability.' },
+    { id: 'E05', role: 'infai', parts: ['build', 'rules'], text: 'Turned legal and regulatory requirements into product features, including structured frameworks and conditional question sets.' },
+    { id: 'E06', role: 'infai', parts: ['tech'], text: 'Worked hands-on with generative and frontier AI models, learning where they work, where they fail and what to do about it.' },
+    { id: 'E07', role: 'infai', parts: ['tech'], text: 'Tested AI output quality with evaluation frameworks and benchmarking, and worked to reduce hallucinations using retrieval-based AI (RAG) and structured outputs.' },
+    { id: 'E08', role: 'infai', parts: ['people'], measure: 'Team of 4', text: 'Recruited and led a team of 4, and managed 3 pilot customers, including FinTech and LegalTech.' },
+    { id: 'E09', role: 'infai', parts: ['build'], measure: '2 of 2 rounds', text: 'Secured the full funding available in two competitive rounds, in a programme with an 80% failure rate.' },
+    { id: 'E10', role: 'as', parts: ['tech'], measure: '25 fee earners', text: 'Ran structured pilots of 3 third-party AI platforms (Legora, Harvey, Jylo) with 25 fee earners, testing them in practice before the firm committed.' },
+    { id: 'E11', role: 'as', parts: ['tech'], text: 'Carried out vendor due diligence on AI suppliers as part of legal technology procurement.' },
+    { id: 'E12', role: 'as', parts: ['rules'], text: 'Made sure the firm’s use of AI followed regulatory guidance from the Law Society of Scotland and the SRA.' },
+    { id: 'E13', role: 'as', parts: ['people'], measure: '250 fee earners', text: 'Supported adoption of generative AI across 250 fee earners in 7 practice areas, linked to AI literacy training.' },
+    { id: 'E14', role: 'as', parts: ['build', 'people'], measure: 'First in role', text: 'First Legal Technologist at a full-service Scottish law firm, leading its AI and emerging technology work and reporting to the COO and Director of IT.' },
+    { id: 'E15', role: 'as', parts: ['people'], measure: '5-year strategy', text: 'Gave direct input into the firm’s 5-year strategy at senior leadership’s request.' },
+    { id: 'E16', role: 'consult', parts: ['build'], text: 'Founded an independent consultancy giving regulated organisations, mainly law firms, practical advice on AI governance and legal technology.' },
+    { id: 'E17', role: 'oslo', parts: ['rules'], measure: 'Published', text: 'Researched and published on risk management requirements for high-risk AI systems under the EU AI Act, supervised by a lawyer advising the European Commission during the legislative negotiations.' },
+    { id: 'E18', role: 'oslo', parts: ['people'], measure: 'Weekly', text: 'Ran weekly seminars for the Norwegian Research Centre for Computers and Law on technology and robotics regulation, engaging academics across the Nordics and Europe.' },
+    { id: 'E19', role: 'ddt', parts: ['tech'], text: 'Managed the technical side of the tribunal’s first online hearings during Covid-19.' },
+    { id: 'E20', role: 'edu', parts: ['rules'], text: 'Master of Laws (LLM) in Information and Communication Technology Law, University of Oslo, 2023.' },
+    { id: 'E21', role: 'edu', parts: ['people'], text: 'Spoke at AI Frontiers for Legal Services and at AI and the Law, University of Oslo, in 2024.' }
+  ];
+
+  var STORIES = [
+    {
+      key: 'codified', tab: 'Codified Legal', part: 'build',
+      tag: 'Codified Legal, London · Sep 2023 to Mar 2024',
+      headline: 'Building an AI assurance service',
+      did: 'Elspeth designed and launched Codified Legal’s first AI Assurance service, working directly with the firm’s directors. She built three reusable assurance toolkits of frameworks, templates and checklists, so the service could be applied consistently rather than rebuilt for each client.',
+      result: 'The service was delivered across three client projects. Her practical guidance on the EU AI Act, GDPR and UK GDPR, cybersecurity and copyright law was used by more than 50 international clients.',
+      badges: ['3 client projects', '3 reusable toolkits', '50+ clients'],
+      chart: null
+    },
+    {
+      key: 'infai', tab: 'InfAI', part: 'tech',
+      tag: 'InfAI, Oslo · Sep 2024 to Nov 2025',
+      headline: 'Building and testing an AI product',
+      did: 'Elspeth founded InfAI, an AI governance software start-up, and designed, built and shipped its first product with the CTO and engineers. The product turned legal and regulatory requirements into structured frameworks and conditional question sets.',
+      result: 'Working hands-on with generative and frontier AI models, she tested output quality with evaluation frameworks and benchmarking, and used retrieval-based AI (RAG) and structured outputs to reduce hallucinations. She recruited and led a team of four, managed three pilot customers, and secured the full funding available in two competitive rounds.',
+      badges: ['Product shipped', '3 pilot customers', 'Funded in both rounds'],
+      chart: {
+        title: 'Funding rounds won', note: '', max: 100, unit: '%', ticks: [0, 25, 50, 75, 100],
+        rows: [
+          { label: 'Programme success rate', value: 20, display: 'about 20%' },
+          { label: 'InfAI', value: 100, display: '2 of 2 rounds', ours: true }
+        ]
+      }
+    },
+    {
+      key: 'as', tab: 'Anderson Strathern', part: 'tech',
+      tag: 'Anderson Strathern LLP, Edinburgh · May 2026',
+      headline: 'Testing AI platforms before buying',
+      did: 'As the firm’s first Legal Technologist, reporting to the COO and Director of IT, Elspeth ran structured pilots of three third-party AI platforms (Legora, Harvey and Jylo) with 25 fee earners. She also made sure the firm’s use of AI followed Law Society of Scotland and SRA guidance.',
+      result: 'The pilots let the firm test each platform on real work before committing. She supported the adoption of generative AI across 250 fee earners in seven practice areas, alongside AI literacy training, and gave direct input into the firm’s five-year strategy at senior leadership’s request.',
+      badges: ['3 platforms piloted', '25 fee earners'],
+      chart: {
+        title: 'Fee earners in the pilots', note: '', max: 250, unit: '', ticks: [0, 50, 100, 150, 200, 250],
+        rows: [
+          { label: 'All fee earners', value: 250, display: '250' },
+          { label: 'Pilot group', value: 25, display: '25 (10%)', ours: true }
+        ]
+      }
+    },
+    {
+      key: 'oslo', tab: 'University of Oslo', part: 'rules',
+      tag: 'University of Oslo · Oct 2022 to Mar 2023',
+      headline: 'Research on the EU AI Act',
+      did: 'On the ViROS project in the Department of Private Law, Elspeth researched the risk management requirements for high-risk AI systems under the EU AI Act. She was supervised by a lawyer who advised the European Commission during the legislative negotiations.',
+      result: 'The research was published. She also ran weekly seminars on technology and robotics regulation for the Norwegian Research Centre for Computers and Law, attended by academics from across the Nordics and Europe.',
+      badges: ['Published', 'Weekly seminars'],
+      chart: null
+    }
+  ];
+
+  var STATS = [
+    { num: '3', what: 'reusable AI assurance toolkits, built at Codified Legal', story: 'codified' },
+    { num: '25', what: 'fee earners in structured pilots of three AI platforms at Anderson Strathern', story: 'as' },
+    { num: '50+', what: 'international clients used her practical regulatory guidance', story: 'codified' }
+  ];
+
+  var STEPS = [
+    { title: 'Understand the system and the rules', short: 'Understand', text: 'Start with what the AI system does and which rules apply. Her research at the University of Oslo focused on risk management for high-risk AI under the EU AI Act.', ev: ['E17', 'E12'] },
+    { title: 'Test how it behaves', short: 'Test', text: 'Test the system on real work before relying on it, from evaluation and benchmarking at InfAI to structured supplier pilots at Anderson Strathern.', ev: ['E07', 'E10'] },
+    { title: 'Build practical controls', short: 'Control', text: 'Turn requirements into frameworks, checklists and product features that people can follow, such as the assurance toolkits built at Codified Legal.', ev: ['E02', 'E05'] },
+    { title: 'Embed it', short: 'Embed', text: 'Make it last through policy, training and clear guidance, including AI literacy training for 250 fee earners at Anderson Strathern.', ev: ['E13', 'E03'] }
+  ];
+
+  var ORGS = [
+    { name: 'Codified Legal', story: 'codified' },
+    { name: 'InfAI', story: 'infai' },
+    { name: 'Anderson Strathern LLP', story: 'as' },
+    { name: 'University of Oslo', story: 'oslo' }
+  ];
+
+  function evById(id) { for (var i = 0; i < EVIDENCE.length; i++) if (EVIDENCE[i].id === id) return EVIDENCE[i]; return null; }
+  function storyIndex(key) { for (var i = 0; i < STORIES.length; i++) if (STORIES[i].key === key) return i; return 0; }
+  function stripStop(s) { return s.replace(/\.$/, ''); }
+  function lc(s) { return /^[A-Z][a-z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s; }
+
+  // ---------- Organisation strip ----------
+  function orgRow(hidden) {
+    return '<ul class="org-row"' + (hidden ? ' aria-hidden="true"' : '') + '>' + ORGS.map(function (o) {
+      return '<li><button class="org js-story" type="button" data-story="' + o.story + '"' + (hidden ? ' tabindex="-1"' : '') + ' aria-label="More on ' + o.name + '">' + o.name + '</button></li>';
+    }).join('') + '</ul>';
+  }
+  $('org-track').innerHTML = orgRow(false) + orgRow(true) + orgRow(true) + orgRow(true);
+  var stripToggle = $('strip-toggle');
+  stripToggle.addEventListener('click', function () {
+    var paused = $('strip').classList.toggle('is-paused');
+    stripToggle.textContent = paused ? 'Play' : 'Pause';
+    stripToggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+  });
+
+  // ---------- Four parts ----------
+  var currentPart = 'build';
+  $('parts-tabs').innerHTML = PART_ORDER.map(function (k) {
+    var n = EVIDENCE.filter(function (e) { return e.parts.indexOf(k) !== -1; }).length;
+    return '<button class="part" type="button" role="tab" id="tab-' + k + '" data-part="' + k + '" aria-selected="false" aria-controls="ev-panel" tabindex="-1">' +
+      '<span class="part-name">' + PARTS[k].name + '</span>' +
+      '<span class="part-line">' + PARTS[k].line + '</span>' +
+      '<span class="part-foot"><span>' + n + ' examples</span><span class="part-on">' + CHECK + 'Showing</span></span>' +
+      '</button>';
+  }).join('');
+
+  function evItem(e) {
+    var r = ROLES[e.role];
+    var from = r.title === r.short ? r.short : r.title + ', ' + r.short;
+    var link = r.story
+      ? '<button class="tlink js-story" type="button" data-story="' + r.story + '">More on ' + r.short + '</button>'
+      : '<a class="tlink" href="#record">See career history</a>';
+    return '<li class="ev" id="ev-' + e.id + '"><div><p class="ev-text">' + e.text + '</p>' +
+      '<div class="ev-meta">' + (e.measure ? '<span class="badge">' + e.measure + '</span>' : '') +
+      '<span class="ev-from">' + from + '</span>' + link + '</div></div></li>';
+  }
+
+  function selectPart(k, opts) {
+    opts = opts || {};
+    if (!PARTS[k]) return;
+    currentPart = k;
+    var items = EVIDENCE.filter(function (e) { return e.parts.indexOf(k) !== -1; });
+    $('ev-panel').setAttribute('aria-labelledby', 'tab-' + k);
+    $('ev-panel').innerHTML = '<p class="ev-count"><strong>' + PARTS[k].name + '</strong> · ' + items.length + ' examples</p><ul>' + items.map(evItem).join('') + '</ul>';
+    Array.prototype.forEach.call(document.querySelectorAll('.part'), function (b) {
+      var on = b.getAttribute('data-part') === k;
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+      b.tabIndex = on ? 0 : -1;
+    });
+    if (opts.flash) {
+      var el = $('ev-' + opts.flash);
+      if (el) { go(el, 'center'); el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash'); }
+    } else if (opts.scroll) {
+      go($('parts'));
+    }
+  }
+
+  function goEvidence(id) {
+    var e = evById(id);
+    if (!e) return;
+    var k = e.parts.indexOf(currentPart) !== -1 ? currentPart : e.parts[0];
+    selectPart(k, { flash: id });
+  }
+
+  // ---------- Stories ----------
+  var currentStory = 0;
+  $('story-tabs').innerHTML = STORIES.map(function (s, i) {
+    return '<button class="tab" type="button" role="tab" id="stab-' + s.key + '" data-index="' + i + '" aria-selected="false" aria-controls="story-card" tabindex="-1">' + s.tab + '</button>';
+  }).join('');
+
+  function chartSVG(c) {
+    var W = 380, top = 4, rowH = 52, axisH = 24;
+    var plotW = W - 4;
+    var H = top + c.rows.length * rowH + axisH;
+    var x = function (v) { return plotW * v / c.max; };
+    var g = '';
+    c.ticks.forEach(function (t, i) {
+      var xx = Math.min(Math.max(x(t), 0.5), plotW - 0.5);
+      g += '<line class="c-grid" x1="' + xx + '" x2="' + xx + '" y1="' + top + '" y2="' + (top + c.rows.length * rowH) + '"/>';
+      var anchor = i === 0 ? 'start' : (i === c.ticks.length - 1 ? 'end' : 'middle');
+      g += '<text class="c-axis" x="' + xx + '" y="' + (H - 6) + '" text-anchor="' + anchor + '">' + t + c.unit + '</text>';
+    });
+    c.rows.forEach(function (r, i) {
+      var y0 = top + i * rowH;
+      var w = Math.max(x(r.value), 3);
+      var inside = r.value / c.max > 0.6;
+      g += '<text class="c-lab' + (r.ours ? ' is-ours' : '') + '" x="0" y="' + (y0 + 15) + '">' + r.label + '</text>';
+      g += '<rect class="' + (r.ours ? 'c-bar-ours' : 'c-bar') + '" x="0" y="' + (y0 + 23) + '" width="' + w + '" height="20" rx="4"/>';
+      g += '<text class="c-val' + (inside ? (r.ours ? ' in-ours' : ' in') : '') + '" x="' + (inside ? w - 8 : w + 8) + '" y="' + (y0 + 37) + '" text-anchor="' + (inside ? 'end' : 'start') + '">' + r.display + '</text>';
+    });
+    var aria = c.title + '. ' + c.rows.map(function (r) { return r.label + ': ' + r.display; }).join('; ');
+    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + aria + '">' + g + '</svg>';
+  }
+
+  function renderStory(i) {
+    currentStory = (i + STORIES.length) % STORIES.length;
+    var s = STORIES[currentStory];
+    var left = s.chart
+      ? '<p class="chart-title">' + s.chart.title + '</p>' + (s.chart.note ? '<p class="chart-note">' + s.chart.note + '</p>' : '')
+      : '<p class="chart-title">At a glance</p>';
+    left += '<div class="badges">' + s.badges.map(function (b) { return '<span class="badge">' + b + '</span>'; }).join('') + '</div>';
+    if (s.chart) left += chartSVG(s.chart);
+    $('story-card').setAttribute('aria-labelledby', 'stab-' + s.key);
+    $('story-card').innerHTML =
+      '<div class="story-grid">' +
+        '<div class="story-left">' + left + '</div>' +
+        '<div class="story-right">' +
+          '<p class="story-tag">' + s.tag + '</p>' +
+          '<h3 class="story-h">' + s.headline + '</h3>' +
+          '<p>' + s.did + '</p>' +
+          '<p>' + s.result + '</p>' +
+          '<button class="tlink js-part" type="button" data-part="' + s.part + '">More on ' + lc(PARTS[s.part].name) + '</button>' +
+        '</div>' +
+      '</div>';
+    Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (t) {
+      var on = Number(t.getAttribute('data-index')) === currentStory;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      if (on && t.scrollIntoView && t.parentNode.scrollWidth > t.parentNode.clientWidth) {
+        t.parentNode.scrollLeft = t.offsetLeft - 16;
+      }
+    });
+  }
+  function openStory(key, scroll) {
+    renderStory(storyIndex(key));
+    if (scroll) go($('stories'));
+  }
+  $('story-prev').addEventListener('click', function () { renderStory(currentStory - 1); });
+  $('story-next').addEventListener('click', function () { renderStory(currentStory + 1); });
+
+  // ---------- Numbers ----------
+  $('stats').innerHTML = STATS.map(function (s) {
+    return '<div class="card stat"><span class="stat-num">' + s.num + '</span><p class="stat-what">' + s.what + '</p>' +
+      '<button class="tlink js-story" type="button" data-story="' + s.story + '">More detail</button></div>';
+  }).join('');
+
+  // ---------- How I work ----------
+  var step = 0, playing = !reduce, hold = false;
+  $('track-nodes').innerHTML = STEPS.map(function (s, i) {
+    return '<li class="node"><button class="node-dot js-step" type="button" data-step="' + i + '" aria-label="Step ' + (i + 1) + ': ' + stripStop(s.title) + '">' + (i + 1) + '</button><span class="node-name">' + s.short + '</span></li>';
+  }).join('');
+  $('how-list').innerHTML = STEPS.map(function (s, i) {
+    return '<li><button class="how-item js-step" type="button" data-step="' + i + '"><span class="how-num">' + (i + 1) + '</span><span><span class="how-h">' + s.title + '</span><span class="how-p">' + s.text + '</span></span></button></li>';
+  }).join('');
+
+  function setStep(i) {
+    step = (i + STEPS.length) % STEPS.length;
+    var s = STEPS[step];
+    $('track-fill').style.setProperty('--p', String(step / (STEPS.length - 1)));
+    Array.prototype.forEach.call(document.querySelectorAll('.node'), function (n, j) {
+      n.classList.toggle('is-done', j < step);
+      n.classList.toggle('is-active', j === step);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.how-item'), function (b, j) {
+      if (j === step) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current');
+    });
+    $('how-now').innerHTML = '<p class="how-step">Step ' + (step + 1) + ' of ' + STEPS.length + '</p>' +
+      '<p class="how-title">' + s.title + '</p>' +
+      '<div class="how-ev"><span>Examples:</span>' + s.ev.map(function (id) {
+        var e = evById(id);
+        return '<button class="tlink js-ev" type="button" data-ev="' + id + '">' + ROLES[e.role].short + '</button>';
+      }).join('') + '</div>';
+  }
+  function setPlaying(p) {
+    playing = p;
+    $('how-play').textContent = p ? 'Pause' : 'Play';
+    $('how-play').setAttribute('aria-pressed', p ? 'false' : 'true');
+  }
+  $('how-prev').addEventListener('click', function () { setStep(step - 1); });
+  $('how-next').addEventListener('click', function () { setStep(step + 1); });
+  $('how-play').addEventListener('click', function () { setPlaying(!playing); });
+  ['how-diagram', 'how-list'].forEach(function (id) {
+    var el = $(id);
+    el.addEventListener('mouseenter', function () { hold = true; });
+    el.addEventListener('mouseleave', function () { hold = false; });
+    el.addEventListener('focusin', function () { hold = true; });
+    el.addEventListener('focusout', function () { hold = false; });
+  });
+  $('how-diagram').addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight') { e.preventDefault(); setStep(step + 1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); setStep(step - 1); }
+  });
+  setInterval(function () { if (playing && !hold && !document.hidden) setStep(step + 1); }, 5500);
+
+  // ---------- Career ----------
+  $('career').innerHTML = CAREER.map(function (k) {
+    var r = ROLES[k];
+    var link = r.story
+      ? '<button class="tlink c-go js-story" type="button" data-story="' + r.story + '">More detail</button>'
+      : '<span class="c-now">' + (r.current ? 'Current' : '') + '</span>';
+    return '<li><span class="c-when">' + r.dates + '</span><span class="c-role">' + r.title + '</span><span class="c-org">' + r.org + '</span>' + link + '</li>';
+  }).join('');
+
+  // ---------- Copy email ----------
+  var toast = $('toast'), toastTimer;
+  function showToast(html, ms) {
+    toast.innerHTML = html;
+    toast.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.hidden = true; }, ms || 2600);
+  }
+  function copyEmail(btn) {
+    var label = btn.getAttribute('data-label');
+    var ok = function () {
+      btn.textContent = 'Copied';
+      setTimeout(function () { btn.textContent = label; }, 2000);
+      showToast('Email address copied.');
+    };
+    var fail = function () {
+      showToast('Copying isn’t available here. The address is <span class="email">' + EMAIL + '</span>', 9000);
+    };
+    try { navigator.clipboard.writeText(EMAIL).then(ok, fail); } catch (e) { fail(); }
+  }
+
+  // Menu button stays a text link while another main button is on screen
+  var navBtn = $('nav-cta');
+  if ('IntersectionObserver' in window) {
+    var seen = [];
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var i = seen.indexOf(en.target);
+        if (en.isIntersecting && i === -1) seen.push(en.target);
+        if (!en.isIntersecting && i !== -1) seen.splice(i, 1);
+      });
+      navBtn.classList.toggle('is-link', seen.length > 0);
+    });
+    io.observe($('hero-cta'));
+    io.observe($('end-cta'));
+  }
+
+  // ---------- Keyboard for tab lists ----------
+  function tabKeys(listId, selector) {
+    $(listId).addEventListener('keydown', function (e) {
+      var tabs = Array.prototype.slice.call(this.querySelectorAll(selector));
+      var i = tabs.indexOf(document.activeElement);
+      if (i === -1) return;
+      var n = null;
+      if (e.key === 'ArrowRight') n = (i + 1) % tabs.length;
+      if (e.key === 'ArrowLeft') n = (i - 1 + tabs.length) % tabs.length;
+      if (e.key === 'Home') n = 0;
+      if (e.key === 'End') n = tabs.length - 1;
+      if (n === null) return;
+      e.preventDefault();
+      tabs[n].focus();
+      tabs[n].click();
+    });
+  }
+  tabKeys('parts-tabs', '.part');
+  tabKeys('story-tabs', '.tab');
+
+  // ---------- One click handler for the whole page ----------
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('button');
+    if (!t) return;
+    if (t.classList.contains('js-copy')) { copyEmail(t); return; }
+    if (t.classList.contains('js-story')) { openStory(t.getAttribute('data-story'), true); return; }
+    if (t.classList.contains('js-part')) { selectPart(t.getAttribute('data-part'), { scroll: true }); return; }
+    if (t.classList.contains('js-ev')) { goEvidence(t.getAttribute('data-ev')); return; }
+    if (t.classList.contains('js-step')) { setStep(Number(t.getAttribute('data-step'))); return; }
+    if (t.classList.contains('part')) { selectPart(t.getAttribute('data-part')); return; }
+    if (t.classList.contains('tab')) { renderStory(Number(t.getAttribute('data-index'))); return; }
+  });
+
+  selectPart('build');
+  renderStory(0);
+  setStep(0);
+  setPlaying(playing);
+})();
+</script>
+</body>
+</html>
